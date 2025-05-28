@@ -1,3 +1,9 @@
+#  Author: Kyle Tranfaglia, Dustin O'Brien
+#  Title: main.py: Chess GUI with AI Player using MCTS and Enhanced Model (Transformer model)
+#  Last updated: 05/16/25
+#  Description: This script implements a chess GUI application using PySide6, integrating a chess board, 
+#  AI player using Monte Carlo Tree Search (MCTS) with model ouputs, and an enhanced chess model for evaluation. The GUI allows 
+#  human players to play against the AI or each other, with features like move history, board flipping, and game status updates.
 import sys
 import math
 import os
