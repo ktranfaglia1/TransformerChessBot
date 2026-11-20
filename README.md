@@ -12,7 +12,7 @@ Engines like Stockfish play deterministic, superhuman chess. This research proje
 
 ## Results
 
-- **Validation accuracy of about 91%** when predicting game outcomes from positions in the grandmaster dataset (training and validation curves are in [`results/graphs/`](results/graphs)).
+- **Validation accuracy of about 91%** when predicting game outcomes (White win, draw, Black win) on held-out positions (training and validation curves are in [`results/graphs/`](results/graphs)).
 - **Playing strength of about 400 Elo,** well short of our 2,200 target. The model learned basic patterns and its play varied in a human-like way, but it often missed tactics such as undefended pieces and immediate threats.
 - **The main lesson: data quality.**
   - Grandmaster games are high quality but rarely show mistakes being punished.
